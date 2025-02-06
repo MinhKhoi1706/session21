@@ -8,7 +8,8 @@ int main(){
 		return 1;
 	}
 		
-	char n[100];
+	char n[100];	
+	fgets(n,100,f);
 	
 	fscanf(f,"%s",n);			
 	printf("%s",n);
